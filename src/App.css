@@ -242,10 +242,16 @@ transition: 1s;
   .img_cover{
     height: 320px!important;
     margin: auto auto;
-    padding-top: -10px;
+   
   }
   .cover-logo{
     width:200px;
+  }
+  .cover-logo{
+    padding-top:10%;
+  }
+  .image_cover{
+   padding-top: -10% !important;
   }
 }
 
