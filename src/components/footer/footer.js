@@ -24,10 +24,10 @@ function footer() {
                       <h3  className="footer-h3">Follow Me </h3>
                       <br/>
                       <p>Let us be social</p>
-    <a href="https://www.facebook.com/Nawbhani-105302658108487"><FaFacebookF style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
-    <a href="https://www.facebook.com/"><FaInstagram style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
-    <a href="https://www.facebook.com/"><FaGithub style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
-    <a href="https://www.facebook.com/"><FaLinkedinIn style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
+    <a href="#"><FaFacebookF style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
+    <a href="#"><FaInstagram style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
+    <a href="#"><FaGithub style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
+    <a href="#"><FaLinkedinIn style={{color:"white",marginLeft:"10px",fontSize:"30px",background:"#0477b5",border:"1px solid black",borderRadius:"30%"}} className="nav-icon icon"/> </a>
                   </div>
                   
               </div>
