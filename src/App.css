@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.{
+  background:red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -42,11 +44,15 @@
 
 }
 .cover{
-  background:rgb(110, 209, 255);
+  /* background:rgb(110, 209, 255); */
+  background: rgb(122,205,245);
+  background: linear-gradient(135deg, rgba(122,205,245,1) 24%, rgba(201,214,217,1) 60%, rgba(166,245,251,1) 91%);
+  background-size:cover;
   width:100%;
 }
 .navbar{
-  background:#0477b5
+  background: rgb(0,176,222);
+  background: linear-gradient(135deg, rgba(0,176,222,1) 9%, rgba(11,103,126,1) 46%, rgba(0,0,0,1) 91%);
 }
 .icon:hover{
   color:rgb(0, 204, 255) !important;
@@ -132,7 +138,16 @@ transition: 1s;
 .tags {
 	text-align: center;
 	padding: 20px 0px;
-	background-color: rgb(70, 71, 73);
+  background-color: #095f9c;
+  margin: auto auto;
+  margin-top: 1%;
+  width:70%;
+  margin-bottom: 1%;
+  -webkit-box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.85); 
+  box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.85);
+  background: rgb(9,37,42);
+  background: linear-gradient(135deg, rgba(9,37,42,1) 9%, rgba(11,103,126,1) 46%, rgba(0,176,222,1) 91%);
+ 
 }
 
 .tag {
@@ -219,4 +234,9 @@ transition: 1s;
   .cover-logo{
     width:200px;
   }
+}
+
+.contact{
+  background: linear-gradient(135deg, rgba(222,246,252,1) 9%, rgba(201,214,217,1) 46%, rgba(255,255,255,1) 91%);
+
 }

@@ -21,6 +21,7 @@ const  ContactUs=()=> {
     }
 
     return(
+        <div className="contact">
         <div className="container">
             <div >
             {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233872.72176496725!2d90.37675754794824!3d23.66661258590254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754526529067e5f%3A0xd02e4d68dbbb8c9c!2sBhaber%20Char!5e0!3m2!1sen!2sbd!4v1594913085567!5m2!1sen!2sbd" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> */}
@@ -50,7 +51,7 @@ const  ContactUs=()=> {
                     </div>
                 </form>
             </div>
-            <div className="row"  style={{marginLeft:"6%",marginBottom:"50%",marginTop:"5%" }}>
+            <div className="row"  style={{marginLeft:"6%",paddingBottom:"30%",marginTop:"5%" }}>
             <div className="col-md-4">
                 <div className="row">
                     <div className="">
@@ -94,6 +95,7 @@ const  ContactUs=()=> {
                 </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

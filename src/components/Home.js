@@ -9,7 +9,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import Typical from 'react-typical';
-import { motion } from "framer-motion"
 function Home() {
     return (
         <>
@@ -22,10 +21,10 @@ function Home() {
                    <h1>AHSAN FARUQUE</h1>
                    <h3> & </h3>
                    <Typical
-        steps={['I am', 1000, 'Developer!', 1000,'Deginer!', 1000]}
-        loop={Infinity}
-        wrapper="h2"
-      />
+                    steps={['I am', 1000, 'Developer!', 1000,'Deginer!', 1000]}
+                    loop={Infinity}
+                    wrapper="h2"
+                />
                    <a href="http://ahsanfe.com/wp-content/uploads/2020/11/Md.-Ahsan-Faruque.pdf" ><Button size="large" variant="contained" color="primary">
                     Download Resume <AssignmentReturnedIcon/>
                     </Button></a>
