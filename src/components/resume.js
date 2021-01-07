@@ -149,6 +149,7 @@ function resume() {
         </div>
      
         <div className="container" style={{marginTop:"3%",marginBottom:"3%"}}>
+        <h2 style={{borderBottom:"4px solid yellow",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Education</h2>
         <Carousel style={{padding:"20px "}}>
   <Carousel.Item>
     <img style={{height:"250px"}}
