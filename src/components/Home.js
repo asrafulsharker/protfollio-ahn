@@ -17,9 +17,9 @@ function Home() {
             <div className="row">
                <div className="col-md-8">
                    <img className="cover-logo" src={logo}/>
-                   <h5>Hi, I'm</h5>
-                   <h1>AHSAN FARUQUE</h1>
-                   <h3> & </h3>
+                   <h5 className="for-font">Hi, I'm</h5>
+                   <h1 className="for-font">AHSAN FARUQUE</h1>
+                   <h3 className="for-font"> & </h3>
                    <Typical
                     steps={['I am', 1000, 'Developer!', 1000,'Deginer!', 1000]}
                     loop={Infinity}

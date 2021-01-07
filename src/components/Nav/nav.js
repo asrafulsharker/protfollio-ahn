@@ -8,7 +8,7 @@ function nav() {
   return (
     <div>
       <Navbar collapseOnSelect expand="lg"  variant="dark" className="navbar">
-  <Navbar.Brand href="#home"> <img className="logo" src={logo}/></Navbar.Brand>
+  <Navbar.Brand href="#home"> <Link to="/"> <img className="logo" src={logo}/></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
