@@ -25,7 +25,7 @@ function resume() {
     return (
         <>
         <div>
-            <h2 style={{borderBottom:"4px solid yellow",width:"150px",margin:"auto auto",marginTop:"3%"}}>About me</h2>
+            <h2 style={{borderBottom:"4px solid yellow",width:"170px",margin:"auto auto",marginTop:"3%",textAlign:"center"}}>About me</h2>
             <h6 className="col-md-8" style={{margin:"auto auto",textAlign:"center" ,marginTop:"10px"}}>I'm a UI/UX, Graphic Designer & Developer from Dhaka, Bangladesh. I aim to make a difference through my creative solution.</h6>
            <br/>
             <p className="col-md-8" style={{textAlign:"center",margin:"auto auto"}}>Worked with project teams to create user-friendly and appealing application interfaces and websites for users. Met with project manager, business analyst and architect right from beginning of project, creating rough mock-ups that were refined and extended over many iterations. Adjustments to mock-ups as necessary to address problems encountered.</p>
@@ -123,7 +123,7 @@ function resume() {
             <br/>
             <div className="row">
             <div className="col-md-6">
-            <Card style={{ width: '' ,margin:"auto auto"}}>
+            <Card className="card" style={{ width: '' ,margin:"auto auto"}}>
                     <Card.Body className="bg-dark card-body">
                         <Card.Title className="title">Design Associate </Card.Title>
                         <Card.Subtitle className="mb-2  subtitle">@HRDI	</Card.Subtitle>
@@ -134,7 +134,7 @@ function resume() {
                     </Card>
             </div>
             <div className="col-md-6">
-            <Card style={{ width: '' ,margin:"auto auto"}}>
+            <Card className="card" style={{ width: '' ,margin:"auto auto"}}>
                     <Card.Body className="bg-dark card-body">
                         <Card.Title className="title">Intern Graphic Designer </Card.Title>
                         <Card.Subtitle className="mb-2  subtitle">@Binary Pathshala	</Card.Subtitle>
@@ -247,7 +247,7 @@ function resume() {
        <h2 style={{borderBottom:"4px solid yellow",color:"black",width:"190px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Testimonials</h2>
          <Carousel>
            <Carousel.Item interval={2000}>
-             <div style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
+             <div className="sy-re" className="carosel-body" style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
                 <div className="carosel-div">
                   <img className="carosel-img" src={formal}/>
                   <Carousel.Caption>
@@ -259,7 +259,7 @@ function resume() {
            
            </Carousel.Item>
            <Carousel.Item interval={2000}>
-             <div style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
+             <div className="sy-re" className="carosel-body" style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
                 <div className="carosel-div">
                   <img className="carosel-img" src={formal}/>
                   <Carousel.Caption>
@@ -270,7 +270,7 @@ function resume() {
              </div>
            </Carousel.Item>
            <Carousel.Item interval={2000}>
-             <div className="carosel-body" style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
+             <div className="sy-re" className="carosel-body" style={{ height:"260px",backgroundColor:"#e1ebe8"}}>
                 <div className="carosel-div">
                   <img className="carosel-img" src={formal}/>
                   <Carousel.Caption>

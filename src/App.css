@@ -73,6 +73,9 @@ transition: 1s;
 .title:hover{
  
 }
+.card{
+  margin-top: 7%;
+}
 .card-body:hover{
   background-color: rgb(252, 142, 16) !important;
   color:black !important;
@@ -199,3 +202,8 @@ transition: 1s;
 }
 
 
+@media only screen and (max-width: 600px) {
+  .carosel-body {
+    height: 350px!important;
+  }
+}
