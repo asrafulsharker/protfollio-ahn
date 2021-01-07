@@ -25,7 +25,7 @@ function resume() {
     return (
         <>
         <div>
-            <h2 style={{borderBottom:"4px solid yellow",width:"170px",margin:"auto auto",marginTop:"3%",textAlign:"center"}}>About me</h2>
+            <h2 style={{borderBottom:"4px solid #2cd0f5",width:"170px",margin:"auto auto",marginTop:"3%",textAlign:"center"}}>About me</h2>
             <h6 className="col-md-8" style={{margin:"auto auto",textAlign:"center" ,marginTop:"10px"}}>I'm a UI/UX, Graphic Designer & Developer from Dhaka, Bangladesh. I aim to make a difference through my creative solution.</h6>
            <br/>
             <p className="col-md-8" style={{textAlign:"center",margin:"auto auto"}}>Worked with project teams to create user-friendly and appealing application interfaces and websites for users. Met with project manager, business analyst and architect right from beginning of project, creating rough mock-ups that were refined and extended over many iterations. Adjustments to mock-ups as necessary to address problems encountered.</p>
@@ -59,7 +59,7 @@ function resume() {
         <br/>
         <div>
             <div className="">
-            <h2 style={{borderBottom:"4px solid yellow",width:"80px",margin:"auto auto",marginTop:"10px",textAlign:"center"}}>Skills</h2>
+            <h2 style={{borderBottom:"4px solid #2cd0f5",width:"80px",margin:"auto auto",marginTop:"10px",textAlign:"center"}}>Skills</h2>
   
 
 <div className="container" style={{marginBottom:"5%"}}>
@@ -80,8 +80,8 @@ function resume() {
 
             </div>
         </div>
-        <div style={{backgroundColor:"black",padding:"50px",}}>
-        <h2 style={{borderBottom:"4px solid yellow",color:"white",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Experience</h2>
+        <div style={{backgroundColor:"#e1ebe8",padding:"50px",}}>
+        <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Experience</h2>
             <div className="container">
             <div className="row ">
                 <div className="col-md-4">
@@ -119,11 +119,11 @@ function resume() {
                     </Card.Body>
                     </Card>
                 </div>
-            </div>
-            <br/>
-            <div className="row">
-            <div className="col-md-6">
-            <Card className="card" style={{ width: '' ,margin:"auto auto"}}>
+            
+
+
+                <div className="col-md-6 ">
+                <Card style={{ width: '' }}>
                     <Card.Body className="bg-dark card-body">
                         <Card.Title className="title">Design Associate </Card.Title>
                         <Card.Subtitle className="mb-2  subtitle">@HRDI	</Card.Subtitle>
@@ -132,24 +132,26 @@ function resume() {
                         </Card.Text>
                     </Card.Body>
                     </Card>
-            </div>
-            <div className="col-md-6">
-            <Card className="card" style={{ width: '' ,margin:"auto auto"}}>
+                </div>
+
+
+                <div className="col-md-6 ">
+                <Card style={{ width: '' }}>
                     <Card.Body className="bg-dark card-body">
-                        <Card.Title className="title">Intern Graphic Designer </Card.Title>
+                        <Card.Title className="title">Intern Graphic Designer</Card.Title>
                         <Card.Subtitle className="mb-2  subtitle">@Binary Pathshala	</Card.Subtitle>
                         <Card.Text className="title">
                         December 2018 -February 2019
                         </Card.Text>
                     </Card.Body>
                     </Card>
-            </div>
+                </div>
         </div>
         </div>
         </div>
      
         <div className="container" style={{marginTop:"3%",marginBottom:"3%"}}>
-        <h2 style={{borderBottom:"4px solid yellow",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Education</h2>
+        <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Education</h2>
         <Carousel style={{padding:"20px "}}>
   <Carousel.Item>
     <img style={{height:"250px"}}
@@ -158,7 +160,7 @@ function resume() {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3 style={{color:"yellow"}}>BSC in CSE</h3>
+      <h2 style={{color:"#2cd0f5",textShadow:"2px 2px 0px #5a6061, 5px 4px 0px rgba(0,0,0,0.15)"}}>BSC in CSE</h2>
       <p>Daffodil International University	January 2018 - December 2021</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -169,8 +171,10 @@ function resume() {
       alt="Third slide"
     />
 
+
+
     <Carousel.Caption>
-      <h3 style={{color:"yellow"}}>Higher Secondary Certificate</h3>
+      <h3 style={{color:"#2cd0f5",textShadow:"2px 2px 0px #5a6061, 5px 4px 0px rgba(0,0,0,0.15)"}}>Higher Secondary Certificate</h3>
       <p>Shahjalal Jamia Islamia School & College</p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -182,37 +186,39 @@ function resume() {
     />
 
     <Carousel.Caption>
-      <h3 style={{color:"yellow"}}>Secondary School Certificate</h3>
+      <h3 style={{color:"#2cd0f5",textShadow:"2px 2px 0px #5a6061, 5px 4px 0px rgba(0,0,0,0.15)"}}>Secondary School Certificate</h3>
       <p>Pachim Sadar High School & College Batch - 2015</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
         </div>
-        <div className="container" style={{ margin:"auto auto"}}>
-        <h2 style={{borderBottom:"4px solid yellow",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Services</h2>
+<div  style={{backgroundColor:"#e1ebe8",padding:"20px"}}>
+
+        <div className="container" style={{backgroundColor:"", margin:"auto auto"}}>
+        <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"165px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Services</h2>
         
  <div style={{padding:"20px"}} className="row">
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}>< GraphicEqIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">Graphics Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}>< GraphicEqIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 ">Graphics Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}><  FormatColorFillIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">Logo Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}><  FormatColorFillIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 ">Logo Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}>< PrintIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">Print Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}>< PrintIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 ">Print Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
@@ -221,31 +227,33 @@ function resume() {
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}>< BrandingWatermarkIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">Brand Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}>< BrandingWatermarkIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 ">Brand Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}><ViewQuiltIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">UI/UX Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}><ViewQuiltIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 ">UI/UX Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
-    <Card.Title style={{textAlign:"center"}}>< DevicesIcon/></Card.Title>
-    <Card.Subtitle style={{textAlign:"center"}} className="mb-2 text-muted">Web Design</Card.Subtitle>
+    <Card.Title style={{textAlign:"center"}}>< DevicesIcon className="service-icon"/></Card.Title>
+    <Card.Subtitle style={{textAlign:"center"}} className="mb-2">Web Design</Card.Subtitle>
   </Card.Body>
 </Card>
    </div>
  </div>
         </div>
+
+        </div>
        <div className="container" style={{marginTop:"5%",marginBottom:"5%"}}>
-       <h2 style={{borderBottom:"4px solid yellow",color:"black",width:"190px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Testimonials</h2>
+       <h2 style={{borderBottom:"4px solid #2cd0f5",color:"black",width:"190px",margin:"auto auto",textAlign:"center",marginBottom:"20px"}}>Testimonials</h2>
          <Carousel>
            <Carousel.Item interval={2000}>
              <div className="sy-re" className="carosel-body" style={{ height:"260px",backgroundColor:"#e1ebe8"}}>

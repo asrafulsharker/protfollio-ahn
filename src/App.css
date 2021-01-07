@@ -49,7 +49,7 @@
   background:#0477b5
 }
 .icon:hover{
-  color:yellow !important;
+  color:rgb(0, 204, 255) !important;
 background:black !important;
 transition: 1s;
 }
@@ -65,7 +65,7 @@ transition: 1s;
   box-shadow: 3px 4px 5px 3px rgba(0,0,0,0.75);
 }
 .subtitle{
-  color: rgb(146, 109, 29);
+  color: rgb(0, 189, 202);
 }
 .title{
   color:rgb(255, 255, 255);
@@ -76,9 +76,11 @@ transition: 1s;
 .card{
   margin-top: 7%;
 }
+
+
 .card-body:hover{
-  background-color: rgb(252, 142, 16) !important;
-  color:black !important;
+  background-color:#037d99!important;
+  color:rgb(255, 255, 255) !important;
   cursor:pointer;
   transition:1s;
 }
@@ -205,5 +207,16 @@ transition: 1s;
 @media only screen and (max-width: 600px) {
   .carosel-body {
     height: 350px!important;
+  }
+  .top-input{
+    margin-top:40% !important;
+  }
+  .img_cover{
+    height: 320px!important;
+    margin: auto auto;
+    padding-top: -10px;
+  }
+  .cover-logo{
+    width:200px;
   }
 }

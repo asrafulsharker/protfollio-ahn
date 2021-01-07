@@ -17,7 +17,7 @@ function Home() {
         <div className="container">
             <div className="row">
                <div className="col-md-8">
-                   <img src={logo}/>
+                   <img className="cover-logo" src={logo}/>
                    <h5>Hi, I'm</h5>
                    <h1>AHSAN FARUQUE</h1>
                    <h3> & </h3>
