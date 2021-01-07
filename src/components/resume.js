@@ -46,12 +46,14 @@ function resume() {
               
 
                 <div className="col-md-6 text-animation"  style={{height:"400px", marginTop:"15%"}}>
-                   <h5>Name : Md. Ahsan Faruque</h5>
-                   <h5>Address : Ashulia, Savar, Dhaka</h5>
-                   <h5>Phone : +880 1708 735449</h5>
-                   <h5>Date of birth : March 27, 1999</h5>
-                   <h5>Email : ahsanfe.contact@gmail.com</h5>
-                   <h5>Interest : Freelance, Full-time, part-time</h5>
+
+
+                   <h5><strong>Name :</strong> Md. Ahsan Faruque</h5>
+                   <h5><strong>Address :</strong> Ashulia, Savar, Dhaka</h5>
+                   <h5><strong>Phone :</strong> +880 1708 735449</h5>
+                   <h5><strong>Date of birth :</strong> March 27, 1999</h5>
+                   <h5><strong>Email :</strong> ahsanfe.contact@gmail.com</h5>
+                   <h5><strong>Interest :</strong> Freelance, Full-time, part-time</h5>
 
                 </div>
             </div>
@@ -222,8 +224,7 @@ function resume() {
   </Card.Body>
 </Card>
    </div>
- </div>
- <div style={{padding:"20px"}} className="row">
+ 
    <div className="col-md-4">
    <Card style={{ width: '' }}>
   <Card.Body>
