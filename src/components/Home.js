@@ -21,7 +21,7 @@ function Home() {
                    <h1 className="for-font">AHSAN FARUQUE</h1>
                    <h3 className="for-font"> & </h3>
                    <Typical
-                    steps={['I am', 1000, 'Developer!', 1000,'Deginer!', 1000]}
+                    steps={['I am', 1000, 'Developer!', 1000,'Designer!', 1000]}
                     loop={Infinity}
                     wrapper="h2"
                 />
