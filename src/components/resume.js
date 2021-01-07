@@ -24,7 +24,7 @@ import ViewQuiltIcon from '@material-ui/icons/ViewQuilt';
 function resume() {
     return (
         <>
-        <div>
+        <div className="resume" style={{paddingTop:"5%"}}>
             <h2 style={{borderBottom:"4px solid #2cd0f5",width:"170px",margin:"auto auto",marginTop:"3%",textAlign:"center"}}>About me</h2>
             <h6 className="col-md-8" style={{margin:"auto auto",textAlign:"center" ,marginTop:"10px"}}>I'm a UI/UX, Graphic Designer & Developer from Dhaka, Bangladesh. I aim to make a difference through my creative solution.</h6>
            <br/>

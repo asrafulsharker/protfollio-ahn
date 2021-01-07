@@ -39,7 +39,7 @@ const Protfollio=()=> {
 	);
 
 	return (
-		<div className="App contact">
+		<div className="App resume contact">
 			<div className="tags">
 				<TagButton name="all design" tagActive={tag === 'all design' ? true : false}  handleSetTag={setTag} /> /
 				<TagButton name="Ui/Ux Design" tagActive={tag === 'Ui/Ux Design' ? true : false} handleSetTag={setTag} /> /

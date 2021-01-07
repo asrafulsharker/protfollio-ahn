@@ -162,6 +162,9 @@ transition: 1s;
   background: linear-gradient(135deg, rgba(9,37,42,1) 9%, rgba(11,103,126,1) 46%, rgba(0,176,222,1) 91%);
  
 }
+.resume{
+  padding-top: 5%;
+}
 
 .tag {
 	outline: none;
@@ -253,9 +256,18 @@ transition: 1s;
   .image_cover{
    padding-top: -10% !important;
   }
+  .resume{
+    padding-top:25% !important;
+  }
+  .contact{
+    padding-top:25% !important;
+  }
+  .top-input{
+    margin-top:55% !important;
+  }
 }
 
 .contact{
   background: linear-gradient(135deg, rgba(222,246,252,1) 9%, rgba(201,214,217,1) 46%, rgba(255,255,255,1) 91%);
-
+padding-top:5%;
 }
